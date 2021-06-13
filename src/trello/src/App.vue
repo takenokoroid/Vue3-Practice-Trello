@@ -1,17 +1,16 @@
 <template>
   <div>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <TodoList></TodoList>
+    <TrelloHome></TrelloHome>
   </div>
 </template>
 
 <script>
-import TodoList from "./components/TodoList.vue";
+import TrelloHome from "./components/TrelloHome.vue";
 
 export default {
   name: "App",
   components: {
-    TodoList,
+    TrelloHome,
   },
 };
 </script>
