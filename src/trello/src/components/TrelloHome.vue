@@ -113,6 +113,7 @@ export default defineComponent({
       ],
       task: "",
     });
+
     // computeds
     const displayCategories = computed(() => {
       let categories = [];
@@ -127,6 +128,7 @@ export default defineComponent({
       });
       return categories;
     });
+
     // methods
     const dragOverCategory = (overCategory) => {
       if (state.task.category_id !== overCategory.id) {

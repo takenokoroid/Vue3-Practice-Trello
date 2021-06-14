@@ -1,6 +1,6 @@
 <template>
   <div
-    class="d-flex mx-2 rounded-3 hover"
+    class="d-flex rounded-3 hover mx-2 "
     v-if="!state.show"
     @click="showInput"
   >
@@ -10,21 +10,20 @@
     <div>
       <input
         type="text"
-        class="p-2 form-control form-control-sm"
+        class="form-control form-control-sm p-2"
         placeholder="新しいタスク名を入力してください"
         v-model="state.task_name"
-        ref="input"
       />
     </div>
     <div class="d-flex m-2">
       <button
-        class="px-4 py-2 text-white me-2 fw-bold btn btn-success btn-sm"
+        class="btn btn-success btn-sm text-white fw-bold me-2 px-4 py-2 "
         @click="addTask"
       >
         追加
       </button>
       <button
-        class="px-4 py-2 text-white  fw-bold btn btn-danger btn-sm"
+        class="btn btn-danger btn-sm text-white fw-bold px-4 py-2 "
         @click="closeInput"
       >
         キャンセル
