@@ -18,5 +18,7 @@ https://takenokoroid.github.io/Vue3-Practice-Trello/
 ## 参考
 
 https://reffect.co.jp/vue/vue-js-trello
+
 https://getbootstrap.jp/
+
 https://qiita.com/ryo2132/items/f055679e9974dbc3f977
